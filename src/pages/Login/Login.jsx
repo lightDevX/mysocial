@@ -1,4 +1,5 @@
-
+import { Link } from 'react-router-dom';
+import auth_illustration from '../../assets/images/auth_illustration.png';
 
 const Login = () => {
     return (
@@ -10,7 +11,7 @@ const Login = () => {
                         <div>
                             <img
                                 className="mb-12 max-w-full max-lg:hidden"
-                                src="./assets/images/auth_illustration.png"
+                                src={auth_illustration}
                                 alt="auth_illustration"
                             />
                             <div>
@@ -55,10 +56,10 @@ const Login = () => {
                             <div className="py-4 lg:py-6">
                                 <p className="text-center text-xs text-gray-600/95 lg:text-sm">
                                     Don’t have account?
-                                    <a
+                                    <Link
                                         className="text-white transition-all hover:text-lwsGreen hover:underline"
-                                        href="/registration.html"
-                                    >Create New</a>
+                                        to="/register"
+                                    >Create New</Link>
                                 </p>
                             </div>
                         </div>
