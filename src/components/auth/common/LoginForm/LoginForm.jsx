@@ -14,7 +14,7 @@ const LoginForm = () => {
 
     const submitForm = (formData) => {
         console.log(formData);
-        navigate("/")
+        navigate("/home")
     }
 
     return (

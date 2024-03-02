@@ -6,7 +6,7 @@ const Logout = () => {
     const navigate = useNavigate()
 
     const handaleLogout = () => {
-        navigate("/login")
+        navigate("/")
     }
 
     return (
