@@ -1,4 +1,5 @@
-
+import { Link } from 'react-router-dom';
+import registration from '../../assets/icons/registration.svg';
 
 const Register = () => {
     return (
@@ -8,7 +9,7 @@ const Register = () => {
 
                     <div>
 
-                        <img className="mb-12 h-60" src="./assets/icons/registration.svg" alt="auth_illustration" />
+                        <img className="mb-12 h-60" src={registration} alt="auth_illustration" />
                         <div>
                             <h1 className="mb-3 text-4xl font-bold lg:text-[40px]">Facehook</h1>
                             <p className="max-w-[452px] text-gray-400/95 lg:text-lg">
@@ -49,7 +50,7 @@ const Register = () => {
                         <div className="py-4 lg:py-4">
                             <p className="text-center text-xs text-gray-600/95 lg:text-sm">
                                 Already have an account?
-                                <a className="hover:text-lwsGreen text-white transition-all hover:underline" href="/login.html">Login</a>
+                                <Link className="hover:text-lwsGreen text-white transition-all hover:underline" to="/login">Login</Link>
                             </p>
                         </div>
                     </div>
