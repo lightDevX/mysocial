@@ -37,7 +37,6 @@ const LoginForm = () => {
             setError("root.random", {
                 type: "random",
                 message: `Use with the email address <span class=" text-red-400"> ${formData.email} </span> not found`,
-
             })
         }
     }
