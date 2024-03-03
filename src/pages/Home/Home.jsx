@@ -1,7 +1,12 @@
+import { useAuth } from "../../API/hooks/useAuth";
 import Header from "../../components/auth/common/Header/Header";
 
 
 const Home = () => {
+
+    const { auth } = useAuth();
+    console.log(auth);
+
     return (
         <>
             <Header />
