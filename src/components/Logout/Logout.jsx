@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../../../API/hooks/useAuth';
-import logout from '../../../assets/icons/logout.svg';
+import { useAuth } from '../../API/hooks/useAuth';
+import logout from '../../assets/icons/logout.svg';
 
 const Logout = () => {
 

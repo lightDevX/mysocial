@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import auth_illustration from '../../assets/images/auth_illustration.png';
-import LoginForm from '../../components/auth/common/LoginForm/LoginForm';
+import LoginForm from '../../components/common/LoginForm/LoginForm';
 
 const Login = () => {
     return (

@@ -1,6 +1,6 @@
 import { Navigate, Outlet } from "react-router-dom";
 import { useAuth } from "../../API/hooks/useAuth";
-import Header from "../../components/auth/common/Header/Header";
+import Header from "../../components/common/Header/Header";
 
 
 const PrivateRoutes = () => {
