@@ -1,6 +1,6 @@
 
 
-const ProfilePost = () => {
+const MyPost = () => {
     return (
         <div>
 
@@ -8,4 +8,4 @@ const ProfilePost = () => {
     );
 };
 
-export default ProfilePost;
+export default MyPost;
