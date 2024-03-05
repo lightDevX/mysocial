@@ -7,8 +7,6 @@ const ProfileInfo = () => {
 
     const { state } = useProfile();
 
-    console.log(state);
-
     return (
         <div>
             <div className="flex flex-col items-center py-8 text-center">
