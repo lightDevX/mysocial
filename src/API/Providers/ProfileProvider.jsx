@@ -1,5 +1,5 @@
 import { useReducer } from 'react';
-import { initialState, profileReducer } from '../../reducers/ProfileReducers';
+import { initialState, profileReducer } from '../../reducers/profileReducers';
 import { ProfileContext } from '../context';
 
 const ProfileProvider = ({ children }) => {
