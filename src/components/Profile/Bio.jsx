@@ -8,6 +8,7 @@ import EditIcon from "../../assets/icons/edit.svg";
 
 const Bio = () => {
     const { state, dispatch } = useProfile();
+
     const { api } = useAxios();
 
     const [bio, setBio] = useState(state?.user?.bio);
@@ -19,8 +20,7 @@ const Bio = () => {
         try {
             const response = await api.patch(
                 `${import.meta.env.VITE_SERVER_BASE_URL}/profile/${state?.user?.id
-                }`,
-                { bio }
+                }`, { bio }
             );
 
             if (response.status === 200) {

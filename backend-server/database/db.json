@@ -471,7 +471,7 @@
       "lastName": "Hasan",
       "avatar": "uploads/avatar/avatar-1708849386635-121791126.png",
       "email": "saadh392@mail.com",
-      "bio": "Saad is an excellent member of LWS who keeps himself updated with technology and stays relevant. He is a tech enthusiast and does not hesitate to help developers in need."
+      "bio": "xxvzv"
     },
     {
       "id": "1aeef0f0-77ba-456b-8b5b-d4145a9b5410",
@@ -514,6 +514,14 @@
       "avatar": "uploads/avatar/avatar-1708802845791-219561000.png",
       "email": "rambo@email.com",
       "bio": "I am Rambo!!!"
+    },
+    {
+      "id": "fe3175d2-588f-4001-b8b7-6c2a417a22de",
+      "password": "$2b$08$Oo4/zuBMqZQArvicgGiRyuLctP/q5KLBjWHpiQHhdBABnrRcG2BqS",
+      "firstName": "Hasan",
+      "lastName": "Khan",
+      "avatar": null,
+      "email": "hasan@email.com"
     }
   ]
 }
