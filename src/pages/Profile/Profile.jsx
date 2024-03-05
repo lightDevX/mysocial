@@ -4,8 +4,8 @@ import { useAuth } from "../../API/hooks/useAuth";
 import useAxios from "../../API/hooks/useAxios";
 import { useProfile } from "../../API/hooks/useProfile";
 import { actions } from "../../actions";
+import MyPost from "../../components/Profile/MyPost";
 import ProfileInfo from "../../components/Profile/ProfileInfo";
-import ProfilePost from "../../components/Profile/ProfilePost";
 
 const Profile = () => {
 
@@ -47,7 +47,7 @@ const Profile = () => {
     return (
         <div>
             <ProfileInfo />
-            <ProfilePost />
+            <MyPost />
         </div>
     )
 }
